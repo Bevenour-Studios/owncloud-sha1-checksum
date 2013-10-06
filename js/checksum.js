@@ -21,7 +21,7 @@
         alert(dom.html());
       }
     },
-    load: 'Creating MD5 Checksum <img src="'+OC.imagePath('core','loading.gif')+'">',
+    load: 'Creating SHA1 Checksum <img src="'+OC.imagePath('core','loading.gif')+'">',
     ajax: function(file) {
       var data = {source: file, dir: $('#dir').val()+'/'};
       $.ajax({
@@ -32,7 +32,7 @@
       async: false,
       success: function(info) {
         dom = $('.checksum-hashing').first();
-        dom.text('MD5: '+info.data[0]);
+        dom.text('SHA1: '+info.data[0]);
         dom.addClass('chcksum-hashed');
         dom.removeClass('checksum-hashing');
       }
