@@ -1,8 +1,8 @@
 <?xml version="1.0"?>
 <info>
-    <id>checksum</id>
-    <name>Checksum</name>
-    <description>Creating a md5 checksum of a file.</description>
+    <id>sha1-checksum</id>
+    <name>SHA1 Checksum</name>
+    <description>Creating a SHA1 checksum of a file.</description>
     <version>1.0</version>
     <licence>AGPL</licence>
     <author>westberliner</author>
